@@ -8,10 +8,16 @@
    Matricula: 1860455*/
 
 int main() {
-	float r,x;
+	float rf1,x, rf2;
 	printf("Introduzca un valor del 0 al 10 para x\n");
 	scanf("%f",&x);
-	r=(x-1)/4-(x-5)/36;
-	printf("El resultado es %.2f:",r);
+	rf1=(x-1)/4-(x-5)/36;
+	printf("El resultado de la funcion 1 es: %.2f\n",rf1);
+	
+	rf2=6*((x+1)/8-(2*x-3)/16);
+	printf("El resultado de la funcion 2 es: %.2f",rf2);
+	
+	
+	
 	return 0;
 }
